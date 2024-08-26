@@ -1,0 +1,20 @@
+base_url = ""
+title = "Himanshu Shrivastava"
+description = "Himanshu Shrivastava's projects, blogs, research, and stuff."
+
+build_search_index = true
+check_external_links = true
+minify_html = false
+default_language = "en"
+generate_feed = true
+feed_filename = "rss.xml"
+external_links_no_follow = true
+external_links_no_referrer = true
+taxonomies = [
+    { name = "tags", rss = true }
+]
+
+[markdown]
+highlight_code = false
+
+[extra]
